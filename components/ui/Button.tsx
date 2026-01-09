@@ -21,12 +21,12 @@ export function Button({
 
   const variants = {
     primary:
-      "bg-blue-700 text-white hover:bg-blue-800 focus:ring-blue-500",
+      "bg-gradient-to-r from-blue-600 to-indigo-600 text-white hover:shadow-lg hover:shadow-blue-500/30 hover:-translate-y-0.5 transition-all duration-200 focus:ring-blue-500 border-none",
     secondary:
-      "bg-white text-gray-800 hover:bg-gray-200 focus:ring-gray-500 border border-gray-300",
+      "bg-white text-gray-700 hover:bg-gray-50 hover:text-gray-900 border border-gray-200 shadow-sm hover:shadow-md transition-all duration-200",
     outline:
-      "border-2 border-blue-600 text-blue-600 hover:bg-blue-50 focus:ring-blue-500",
-    ghost: "text-white-700 bg-shadow-lg bg-white/20 hover:bg-white/30 focus:ring-gray-500",
+      "border-2 border-blue-600 text-blue-600 hover:bg-blue-50 focus:ring-blue-500 font-semibold",
+    ghost: "text-white/90 hover:text-white bg-white/10 hover:bg-white/20 backdrop-blur-md shadow-inner border border-white/10",
   };
 
   const sizes = {
